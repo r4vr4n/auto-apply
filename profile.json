@@ -1,0 +1,162 @@
+{
+  "personal": {
+    "firstName": "Rajeev",
+    "lastName": "Ranjan",
+    "fullName": "Rajeev Ranjan",
+    "email": "rajeevranjan19@outlook.com",
+    "phone": "+91 7543898325",
+    "linkedin": "https://www.linkedin.com/in/r4vr4n",
+    "github": "",
+    "portfolio": "",
+    "website": "",
+    "headline": "Full-Stack Engineer (Frontend-focused)",
+    "location": {
+      "street": "",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "stateCode": "KA",
+      "zip": "",
+      "country": "India",
+      "countryCode": "IN"
+    }
+  },
+  "currentJob": {
+    "title": "Senior Software Developer",
+    "company": "Appiness Interactive",
+    "startDate": "08/2025",
+    "location": "Bengaluru, KA, IN"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Developer",
+      "company": "Appiness Interactive (Client: Teragonia)",
+      "location": "Bengaluru, KA",
+      "type": "On-site",
+      "startDate": "08/2025",
+      "endDate": "Present",
+      "current": true,
+      "bullets": [
+        "Built a React Flow + ELK.js data-model canvas with real-time collaboration over Centrifugo WebSockets.",
+        "Cut p95 drag latency 333ms to under 100ms on 50-node graphs via Zustand slice selectors.",
+        "Designed human-in-the-loop approval workflows for 10,000+ tables wired to Temporal signal-based gates.",
+        "Built FastAPI features and led a platform-wide API redesign.",
+        "Rebuilt Playwright E2E into 6 parallel CI legs; 100 Lighthouse accessibility score."
+      ]
+    },
+    {
+      "title": "Senior Frontend Engineer",
+      "company": "DashClicks",
+      "location": "Jaipur, RJ",
+      "type": "Remote",
+      "startDate": "11/2024",
+      "endDate": "06/2025",
+      "current": false,
+      "bullets": [
+        "Built client + admin activity feed end to end (UI + API) for client onboarding.",
+        "Migrated server state from Redux Toolkit to React Query with typed hooks.",
+        "Built DCTable on TanStack Table + Virtual, reused app-wide.",
+        "Cut Conversation Plugin bundle by 40%; set up an Nx monorepo."
+      ]
+    },
+    {
+      "title": "Senior Frontend Developer (Contract)",
+      "company": "Reconect.ai",
+      "location": "Bengaluru, KA",
+      "type": "On-site",
+      "startDate": "08/2024",
+      "endDate": "11/2024",
+      "current": false,
+      "bullets": [
+        "Owned frontend of the collections app: dashboards, analytics, campaign workflows.",
+        "Built campaign management that eliminated 20+ hours/week of manual setup.",
+        "Built Recharts analytics dashboards for collection performance."
+      ]
+    },
+    {
+      "title": "Senior Frontend Developer",
+      "company": "Zeitview",
+      "location": "Bengaluru, KA",
+      "type": "Remote",
+      "startDate": "03/2022",
+      "endDate": "08/2024",
+      "current": false,
+      "bullets": [
+        "Built the Analysis Tool from scratch as sole engineer leading 3 interns.",
+        "Rewrote Construction Monitoring with a modular architecture.",
+        "Rendered LiDAR terrain in CesiumJS with flood analysis and 360-degree panoramas."
+      ]
+    },
+    {
+      "title": "Frontend Engineer",
+      "company": "Estate Protocol",
+      "location": "Noida, UP",
+      "type": "Remote",
+      "startDate": "06/2021",
+      "endDate": "02/2022",
+      "current": false,
+      "bullets": [
+        "Built the token airdrop end to end (Node.js + Web3.js); 2,000+ users claimed.",
+        "Built the property marketplace full-stack in Next.js and Node.js."
+      ]
+    },
+    {
+      "title": "Software Developer (Intern to Full-time)",
+      "company": "Solytics Partners",
+      "location": "Pune, MH",
+      "type": "Remote",
+      "startDate": "09/2020",
+      "endDate": "06/2021",
+      "current": false,
+      "bullets": [
+        "Delivered 8 core modules for Nimbus Duo, the fraud detection and analytics platform.",
+        "Built an Inventory Management system MVP from scratch in 2 weeks."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Computer Science & Engineering",
+      "school": "Biju Patnaik University of Technology",
+      "location": "Bhubaneswar, OD",
+      "startDate": "03/2015",
+      "endDate": "03/2019"
+    },
+    {
+      "degree": "Certified MERN Stack Developer",
+      "school": "AttainU - Online Bootcamp",
+      "location": "Bangalore, KA",
+      "startDate": "07/2019",
+      "endDate": "05/2020",
+      "credentialId": "AUFS004052"
+    }
+  ],
+  "skills": {
+    "languages": ["TypeScript", "JavaScript", "Python", "SQL"],
+    "frontend": ["React", "Next.js", "TanStack Query", "TanStack Table", "Zustand", "Redux Toolkit", "Material UI", "Tailwind CSS", "Storybook"],
+    "dataAndVisualization": ["React Flow", "ELK.js", "CesiumJS", "Mapbox", "Recharts", "React-Konva"],
+    "backend": ["Node.js", "Express", "FastAPI", "SQLAlchemy", "Temporal", "PostgreSQL", "Neo4j", "MongoDB", "Snowflake", "WebSockets", "SSE"],
+    "testingAndDevops": ["Playwright", "Cypress", "Jest", "Vitest", "React Testing Library", "GitHub Actions", "Docker", "Nx", "Vite", "Sentry", "AWS"]
+  },
+  "questions": {
+    "yearsOfExperience": "5",
+    "skillsYearsDefault": "3",
+    "noticePeriod": "30 days",
+    "willingToRelocate": "Yes",
+    "requiresSponsorship": "No",
+    "authorizedToWork": "Yes",
+    "salaryExpectation": ""
+  },
+  "answers": [
+    { "match": ["how did you hear"], "value": "LinkedIn" },
+    { "match": ["race", "gender", "ethnic", "veteran", "disability"], "value": "" }
+  ],
+  "documents": {
+    "resume": "resume/Resume.pdf",
+    "coverLetterText": "Hi, I'm Rajeev Ranjan, a full-stack engineer with 5+ years of experience building React/TypeScript frontends and Node/FastAPI backends. Recently I built a real-time collaborative data-model canvas (React Flow + ELK.js over WebSockets) and led platform-wide API redesigns. I'd love to bring that experience to your team. Thank you for considering my application!"
+  },
+  "settings": {
+    "submit": false,
+    "typingDelayMs": 20,
+    "screenshots": true
+  }
+}

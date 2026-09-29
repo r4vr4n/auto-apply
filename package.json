@@ -1,0 +1,26 @@
+{
+  "name": "auto-apply",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "typecheck": "tsc --noEmit",
+    "cli": "tsx src/cli.ts",
+    "login": "tsx src/login.ts",
+    "app": "tsx src/server.ts",
+    "app:desktop": "electron electron/main.cjs"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "playwright": "^1.49.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.10.0",
+    "electron": "^33.2.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.0"
+  }
+}
